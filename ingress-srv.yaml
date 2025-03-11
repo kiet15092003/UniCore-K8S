@@ -18,3 +18,10 @@ spec:
                 name: user-clusterip-srv
                 port:
                   number: 80
+          - path: /api/c/
+            pathType: Prefix
+            backend:
+              service:
+                name: course-clusterip-srv 
+                port:
+                  number: 80

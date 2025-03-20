@@ -30,7 +30,7 @@ spec:
             - name: KAFKA_LISTENERS
               value: "PLAINTEXT://:9092,EXTERNAL://:9094"
             - name: KAFKA_ADVERTISED_LISTENERS
-              value: "PLAINTEXT://kafka:9092,EXTERNAL://localhost:32000"  # Updated for localhost
+              value: "PLAINTEXT://kafka:9092,EXTERNAL://localhost:32000"
             - name: KAFKA_INTER_BROKER_LISTENER_NAME
               value: "PLAINTEXT"
 ---
